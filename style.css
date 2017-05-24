@@ -58,7 +58,6 @@ body {
 
 .card {
   margin: 0 auto;
-  width: 600px;
   padding: 15px;
   margin: 15px;
   background-color: #99B2B7;
@@ -91,10 +90,10 @@ body {
 
 }
 
-#page-content {
+/*#page-content {
   margin-left: 100px;
 
-}
+}*/
 
 #sidebar {
   color: #1E2537;
@@ -131,6 +130,22 @@ a > i {
   font-size: 40px;
 }
 
+.left {
+  float: left;
+  width: 30%;
+}
+.right {
+  width: 66%;
+  float: right;
+  height: 300px;
+  margin-left: 15px;
 
+}
+.clear {
+  clear: both;
 
+}
+.wrapper {
+  margin: 0 50px;
+}
 
